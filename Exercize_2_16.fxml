@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+
+<HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="130.0" prefWidth="340.0" spacing="10.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Exercize_2_16">
+   <children>
+      <TextField fx:id="number1_Text_Field" alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" onInputMethodTextChanged="#number1_Text_Field_Input" prefHeight="25.0" prefWidth="60.0" />
+      <Label fx:id="result_Label" alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="25.0" prefWidth="100.0" text="Enter digits" textAlignment="JUSTIFY" textOverrun="WORD_ELLIPSIS">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="number2_Text_Field" alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" onInputMethodTextChanged="#number2_Text_Field_Input" prefHeight="25.0" prefWidth="60.0" />
+   </children>
+   <opaqueInsets>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </opaqueInsets>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</HBox>
