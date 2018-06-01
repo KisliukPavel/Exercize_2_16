@@ -75,28 +75,6 @@ public class Exercize_2_16Controller {
 				result_Label.setText("=");
 			}
 		}
-		/*if(!(check_Input(number2_Text_Field.getText()))) {
-			result_Label.setText("Incorrect");
-			result_Label.setTextFill(Color.RED);
-		}
-		else if(check_Empty(number1_Text_Field.getText()) || check_Empty(number2_Text_Field.getText())) {
-			result_Label.setTextFill(Color.BLACK);
-			result_Label.setText("Enter digits");
-		}
-		else {
-			result_Label.setTextFill(Color.BLACK);
-			Integer num1 = Integer.valueOf(number1_Text_Field.getText());
-			Integer num2 = Integer.valueOf(number2_Text_Field.getText());
-			if(num1 > num2) {
-				result_Label.setText(">");
-			}
-			else if(num1 < num2) {
-				result_Label.setText("<");
-			}
-			else {
-				result_Label.setText("=");
-			}
-		}*/
 
 	}
 
