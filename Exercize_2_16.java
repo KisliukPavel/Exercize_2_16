@@ -13,7 +13,7 @@ public class Exercize_2_16 extends Application {
 
 	public void start(Stage primaryStage) throws Exception
 	{
-		Parent root = FXMLLoader.load(getClass().getResource("Exercize_2_15.fxml"));
+		Parent root = FXMLLoader.load(getClass().getResource("Exercize_2_16.fxml"));
 		primaryStage.setResizable(false);
 		primaryStage.sizeToScene();
 		primaryStage.setTitle("JavaFX application");
