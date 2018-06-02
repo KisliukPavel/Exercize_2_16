@@ -1,3 +1,7 @@
+/*(Comparing Integers) Write an application that asks the user to enter two integers, obtains
+them from the user and displays the larger number followed by the words "is larger".*/
+
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;

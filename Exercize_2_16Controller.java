@@ -18,6 +18,7 @@ public class Exercize_2_16Controller {
 
 	@FXML
 	void number1_Text_Field_Input(KeyEvent event) {
+		//----------------------------------------------------check whether fields are empty
 		if(check_Empty(number1_Text_Field.getText()) || check_Empty(number2_Text_Field.getText())) {
 			result_Label.setTextFill(Color.BLACK);
 			result_Label.setText("Enter digits");
@@ -26,10 +27,12 @@ public class Exercize_2_16Controller {
 				result_Label.setTextFill(Color.RED);
 			}
 		}
+		//----------------------------------------------------check whether input symbols are digits
 		else if(!(check_Input(number1_Text_Field.getText())) || !(check_Input(number2_Text_Field.getText()))) {
 			result_Label.setText("Incorrect");
 			result_Label.setTextFill(Color.RED);
 		}
+		//----------------------------------------------------compering
 		else {
 			result_Label.setTextFill(Color.BLACK);
 			Integer num1 = Integer.valueOf(number1_Text_Field.getText());
@@ -48,6 +51,7 @@ public class Exercize_2_16Controller {
 
 	@FXML
 	void number2_Text_Field_Input(KeyEvent event) {
+		//----------------------------------------------------check whether fields are empty
 		if(check_Empty(number1_Text_Field.getText()) || check_Empty(number2_Text_Field.getText())) {
 			result_Label.setTextFill(Color.BLACK);
 			result_Label.setText("Enter digits");
@@ -57,10 +61,12 @@ public class Exercize_2_16Controller {
 			}
 
 		}
+		//----------------------------------------------------check whether input symbols are digits
 		else if(!(check_Input(number1_Text_Field.getText())) || !(check_Input(number2_Text_Field.getText()))) {
 			result_Label.setText("Incorrect");
 			result_Label.setTextFill(Color.RED);
 		}
+		//----------------------------------------------------compering
 		else {
 			result_Label.setTextFill(Color.BLACK);
 			Integer num1 = Integer.valueOf(number1_Text_Field.getText());
